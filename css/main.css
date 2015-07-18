@@ -197,7 +197,7 @@ p.div-slide-info-title{
 		.slideBox .hd ul li.on{  color:#1E8BE0; border-bottom:2px solid #1E8CE0; }
 		.slideBox .bd{ padding-top:5px;position:relative; height:100%; z-index:0;   }
 		.slideBox .bd li{ zoom:1; vertical-align:middle; list-style: none; }
-		.slideBox .bd div.div-slide-info-row{ width:1100px; height:575px; display: block;padding-left: 25px;}
+		.slideBox .bd div.div-slide-info-row{ width:1100px; height:575px; display: block;padding-left: 50px;}
 		.slideBox .bd div.div-slide-info-left{ width:42%; height:575px; display: block; padding: 150px 0px 0px 0px; }
 		.slideBox .bd div.div-slide-info-right{ width:58%; height:575px; display: block;  }
 		.slideBox .bd img{  display:block;  }
