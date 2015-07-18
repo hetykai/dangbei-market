@@ -5,6 +5,10 @@ body {
 	color: #333;
 	-webkit-text-size-adjust: none
 }
+option:hover{
+	background: #222222;
+}
+
 a,a:hover{ text-decoration:none; border:none;color: #000000;}
 img{ border:none;}
 a:hover{ color:#008ae2;}
@@ -42,6 +46,7 @@ ul,li{ padding:0; margin:0;}
 
 
 .downbox p,.downbox p a{ font-size:14px; color:#FFF; margin: 0;}
+.downbox>p{ margin-top:5px;}
 .downbttxt p{ font-size:16px;}
 
 .downbox>p>a{
@@ -81,7 +86,7 @@ ul,li{ padding:0; margin:0;}
 }
 
 .div-banner-select{
-	margin-top:34px;
+	margin-top:24px;
 	width: 400px;
 }
 .div-banner-select>div{
@@ -90,21 +95,24 @@ ul,li{ padding:0; margin:0;}
 }
 .select-banner-brand{
 	width: 112px;
-	height: 30px;
+	height: 28px;
 	padding: 0px 2px;
+	margin-top:8px;
 }
 .select-banner-type{
 	width: 164px;
-	height: 30px;
+	height: 28px;
 	padding: 0px 2px;
+	margin-top:8px;
 }
 .button-banner-select{
-	width:70px;
+	width:72px;
 	height: 30px;
-	line-height: 30px;
+	line-height: 29px;
 	padding: 0px 12px;
 	color: #FFFFFF;
-	background: #094FB8;
+	background: url(../images/install_button_sure.png) no-repeat;
+	margin-top:6px;
 }
 .div-banner-select .btn:hover{
 	color: #FFFFFF;
