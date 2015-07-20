@@ -11,5 +11,5 @@ $(".prev,.next").hover(function(){
     $(this).fadeTo("show",0.1);
 })
 $(".slide-banner").slide({ titCell:".num ul" , mainCell:".51buypic" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });
-
+/*第二个slide*/
 jQuery(".slideBox").slide({mainCell:".bd ul",effect:"left",delayTime:1000});
