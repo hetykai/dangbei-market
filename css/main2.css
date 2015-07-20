@@ -123,27 +123,22 @@ ul,li{ padding:0; margin:0;}
 }
 .div-virtue{
 	width: 1014px;
-	height: 300px;
 	margin: 0px auto;
 }
 .div-virtue-col{
 	width: 50%;
 	height: 300px;
-	float: left; 
-	padding-left: 80px; 
+	float: left;/* 
+	padding-left: 40px; */
 }
 
 .div-virtue-row{
 	height: 50%;
-	width: 470px;
+	width: 460px;
 	margin: 0 auto;
 }
 .div-virtue-row:first-child{
-	 padding-top:22px; 
-
-}
-.div-virtue-row:nth-child(2){
-	 padding-bottom:22px; 
+	/* padding-top:23px; */
 
 }
 .div-virtue-row>div{
@@ -156,14 +151,14 @@ div.div-virtue-row-left{
 	width:66px;
 }
 div.div-virtue-row-right{
-	width:390px;
+	width:380px;
 }
 .div-virtue-row-right>p{
-	margin:5px 0px 0px 10px;
+	margin:12px 0px 0px 10px;
 	font-size: 18px;
 }
 p.div-virtue-title{
-	margin:5px 0px 0px 10px;
+	margin:0px 0px 0px 10px;
 	height: 36px;
 	font-size: 36px;
 }
@@ -188,8 +183,7 @@ p.div-virtue-title{
 p.div-slide-info-title{
 	font-size: 48px;
 	color: #797979;
-	line-height: 1;
-	margin-bottom: 42px;
+	margin-bottom: 34px;
 }
 .div-slide-info-link,.div-slide-info-link span{
 	font-size: 16px;
@@ -215,12 +209,11 @@ p.div-slide-info-title{
 		.slideBox .bd{ padding-top:5px;position:relative; height:100%; z-index:0;   }
 		.slideBox .bd li{ zoom:1; vertical-align:middle; list-style: none; }
 		.slideBox .bd div.div-slide-info-row{ width:1100px; height:575px; display: block;padding-left: 50px;}
-		.slideBox .bd div.div-slide-info-left{ width:42%; height:575px; display: block; padding: 180px 0px 0px 0px; }
-		#car-right{ padding: 180px 0px 0px 50px; }
+		.slideBox .bd div.div-slide-info-left{ width:42%; height:575px; display: block; padding: 150px 0px 0px 0px; }
 		.slideBox .bd div.div-slide-info-right{ width:58%; height:575px; display: block;  }
 		.slideBox .bd img{  display:block;  }
 
-		/* 下面是前/后按钮代码，如果不需要删除即可 */
+		/* ÏÂÃæÊÇÇ°/ºó°´Å¥´úÂë£¬Èç¹û²»ÐèÒªÉ¾³ý¼´¿É */
 		.slideBox .prev,.slideBox .next{ position:absolute; left:3%; top:40%; margin-top:-25px; display:block; width:44px; height:90px; filter:alpha(opacity=50);opacity:0.5;   }
 		.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
 		.slideBox .prev:hover,
@@ -228,7 +221,7 @@ p.div-slide-info-title{
 		.slideBox .prevStop{ display:none;  }
 		.slideBox .nextStop{ display:none;  }
 
-/*每块特点介绍*/
+/*Ã¿¿éÌØµã½éÉÜ*/
 .features{ 
 	width:100%; 
 	height:600px; 
@@ -256,7 +249,7 @@ p.div-slide-info-title{
 .features h3 {
 	font-size: 48px;
 	line-height: 1;
-	margin: 0 0 42px;
+	margin: 0 0 48px;
 	color: #797979;
 }
 .features p {
@@ -274,7 +267,7 @@ p.div-slide-info-title{
 
 
 
-/*各块特点介绍*/
+/*¸÷¿éÌØµã½éÉÜ*/
 .feature3{
 	background-color: #F7F7F7;
 }
@@ -320,16 +313,16 @@ p.div-slide-info-title{
 }
 
 
-/*底部按钮*/
+/*µ×²¿°´Å¥*/
 .bottom-button{
 	width: 100%;
 	height: 395px;
 	background: url(../images/arrow2.png) no-repeat;
-	background-position:50% 100px;
+	background-position:50% 50%;
 	background-color: #FFFFFF;
 }
 .arrow-down{
-	padding: 170px 0 0 0;
+	padding: 238px 0 0 0px;
 }
 .down-button{
 	width: 280px;
@@ -360,15 +353,15 @@ p.div-slide-info-title{
 .pup{ font-size:17px; margin-bottom:40px; color:#fff;}
 .downbttxt p{ font-size:16px;} */
 
-/*滑动窗*/
+/*»¬¶¯´°*/
 .slide-banner { width: 577px; height: 330px; margin:3px 0 0 3px; position: relative; overflow:hidden;  }
 
-/*数字按钮样式*/
+/*Êý×Ö°´Å¥ÑùÊ½*/
 .slide-banner .num { overflow:hidden; height: 25px; position: absolute; bottom:12px; left: 15px; zoom:1; z-index:3 }
-.slide-banner .num li { width: 25px; height: 25px; line-height: 25px; text-align: center; font-weight: 400; font-family: "微软雅黑", Arial; color: #FFFFFF; background: #444444; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
-.slide-banner .num li.on { background: #FF7700; } /*当前项*/
+.slide-banner .num li { width: 25px; height: 25px; line-height: 25px; text-align: center; font-weight: 400; font-family: "Î¢ÈíÑÅºÚ", Arial; color: #FFFFFF; background: #444444; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
+.slide-banner .num li.on { background: #FF7700; } /*µ±Ç°Ïî*/
 .slide-banner img{ width:577px; height:330px;}
-/*上一个  下一 个*/
+/*ÉÏÒ»¸ö  ÏÂÒ» ¸ö*/
 .slide-banner .prev,
 .slide-banner .next { display: none; width: 40px; height: 100px; background: url(../images/btn.png) no-repeat; position: absolute; top: 110px;}
 .slide-banner .prev { left: 0; }
