@@ -112,6 +112,10 @@ ul,li{ padding:0; margin:0;}
 	background: url(../images/install_button_sure.png) no-repeat;
 	margin-top:6px;
 }
+.button-banner-select a{
+	display: block;
+	color:#FFFFFF;
+}
 .div-banner-select .btn:hover{
 	color: #FFFFFF;
 }

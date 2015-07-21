@@ -1,27 +1,62 @@
-$("select").mouseover(function(){
-	console.log($(".option"));
-  $("this").css("background-color","yellow");
-});
-$("option").mouseout(function(){
-	console.log($(".option"));
-  $("this").css("background-color","white");
-});
-//$("select").change(setColor(this, options[selectedIndex]));
-function setColor(_parent, _child) {
-	alert(1111)
-        for (var i=0; i<_parent.options.length; i++) {
-//遍历所有选项
-             if (_parent.options[i] == _child) {
-                 _parent.options[i].style.color = 'yellow';                 
-//颜色
-                 _parent.options[i].style.backgroundColor = 'blue';         
-//背景色
-             } else {
-                 _parent.options[i].style.color = '';                       
-//取消颜色
-                 _parent.options[i].style.backgroundColor = '';             
-//取消背景色
-             }
-        }
-        document.body.focus();   //窗体获得焦点
+$(function(){
+    appendBrand();
+    $("#brand").change(function(){
+        var tid=$("#brand option:selected").val();
+        appendVersion(tid);
+    });
+    
+    $("#version").change(function(){
+        var aid=$("#version option:selected").val();
+        console.log(aid);
+        $('.button-banner-select a').attr("href","http://jc.znds.com/plus/view.php?aid="+aid);
+    });
+
+
+    function appendBrand(){
+        var url="action/getJc.php";
+        result=getData(url);
+        $('#brand').html('<option value="">品牌</option>');
+        $.each(result,function (i, v) {
+            $('#brand').append('<option value="'+v.id+'">'+v.typename+'</option>')
+        });
     }
+
+    function appendVersion(tid){
+        var url="action/getJc.php";
+        result=postData(url,tid);
+        $('#version').html('<option value="">型号</option>');
+        $.each(result,function (i, v) {
+            $('#version').append('<option value="'+v.id+'">'+v.title+'</option>')
+        });
+    }
+
+    function getData(url){
+        var result;
+        $.ajax({
+            url:url,
+            type:'GET',
+            async:false,
+            success:function(data,status){
+                data=eval(data);
+                result=data;
+            }
+        });
+        return result;
+    }
+    
+    function postData(url,data){
+        var result;
+        $.ajax({
+            url:url,
+            type:'POST',
+            async:false,
+            data:{data:data},
+            success:function(data,status){
+                data=eval(data);
+                result=data;
+            }
+        });
+        return result;
+    }
+
+})
