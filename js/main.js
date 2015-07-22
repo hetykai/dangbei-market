@@ -7,8 +7,7 @@ $(function(){
     
     $("#version").change(function(){
         var aid=$("#version option:selected").val();
-        console.log(aid);
-        $('.button-banner-select a').attr("href","http://jc.znds.com/plus/view.php?aid="+aid);
+        $('#surebtn').attr("href","http://jc.znds.com/plus/view.php?aid="+aid);
     });
 
 

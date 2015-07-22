@@ -107,14 +107,15 @@ ul,li{ padding:0; margin:0;}
 	width:72px;
 	height: 30px;
 	line-height: 29px;
-	padding: 0px 12px;
+	padding: 0px 20px;
 	color: #FFFFFF;
 	background: url(../images/install_button_sure.png) no-repeat;
-	margin-top:6px;
-}
-.button-banner-select a{
+	margin-top:8px;
 	display: block;
-	color:#FFFFFF;
+	font-size: 15px;
+}
+a.button-banner-select:hover{
+	color: #FFFFFF;
 }
 .div-banner-select .btn:hover{
 	color: #FFFFFF;
@@ -136,6 +137,8 @@ ul,li{ padding:0; margin:0;}
 	height: 300px;
 	float: left; 
 	padding-left: 80px; 
+	display:block;
+	padding: 22px 0 22px 80px;
 }
 
 .div-virtue-row{
@@ -143,16 +146,16 @@ ul,li{ padding:0; margin:0;}
 	width: 470px;
 	margin: 0 auto;
 }
-.div-virtue-row:first-child{
+/*  .div-virtue-row:first-child{
 	 padding-top:22px; 
 
 }
 .div-virtue-row:nth-child(2){
 	 padding-bottom:22px; 
 
-}
+}  */
 .div-virtue-row>div{
-	display: inline-block;
+	display:inline-block;
 	vertical-align: middle;
 }
 div.div-virtue-row-left{
@@ -209,7 +212,7 @@ p.div-slide-info-title{
 		.slideBox .hd{width:220px;height:30px; }
 		.slideBox .hd ul li{cursor: pointer;float:left; list-style: none;color: #727272;padding: 0 19px;display: block;height: 30px;line-height: 30px;}
 		.slideBox .hd-ul{height:30px;border-bottom:1px solid #CFCFCF;}
-		.slideBox .hd ul div{float:left;color: #727272;}
+		.slideBox .hd ul div{cursor: none;display:block;float:left;color: #727272;padding-top: 4px;}
 		.slideBox .hd ul li.on{  color:#1E8BE0; border-bottom:2px solid #1E8CE0; }
 		.slideBox .bd{ padding-top:5px;position:relative; height:100%; z-index:0;   }
 		.slideBox .bd li{ zoom:1; vertical-align:middle; list-style: none; }

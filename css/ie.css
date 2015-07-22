@@ -1,0 +1,74 @@
+.div-virtue-col{
+	width: 50%;
+	height: 300px;
+	float: left; 
+	padding-left: 80px; 
+	*width: 40%;
+	display:block;
+	padding: 22px 0 22px 80px;
+	*padding-top:36px;
+	*padding-bottom:0px;
+}
+.div-title p{
+	line-height: 48px;
+}
+.div-virtue-row{
+	height: 36%;
+}
+.div-virtue-row>div{
+	display:inline-block;
+	*display:inline;      /* 只有ie6和ie7识别*/
+	zoom:1;
+	vertical-align: middle;
+}
+
+.div-virtue-row-right>p{
+	margin:5px 0px 0px 10px;
+	font-size: 18px;
+	*line-height: 28px;
+}
+p.div-virtue-title{
+	margin:5px 0px 0px 10px;
+	height: 36px;
+	font-size: 36px;
+	*line-height: 46px;
+}
+.features .img-wrapper{
+	display: inline-block;
+	*display:inline;      /* 只有ie6和ie7识别*/
+	zoom:1;
+	vertical-align: middle;
+}
+.features .features-desc {
+	overflow: hidden;
+	display: inline-block;
+	*display:inline;      /* 只有ie6和ie7识别*/
+	zoom:1;
+	vertical-align: middle;
+	font-size: 12px;
+	width: 270px;
+	text-align: left;
+}
+.strut {
+	display: inline-block;
+	*display:inline;      /* 只有ie6和ie7识别*/
+	zoom:1;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/* .slideBox .hd ul li{
+	cursor: pointer;
+	float:left; 
+	list-style: none;
+	color: #727272;
+	padding: 0 19px;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+} */
+.slideBox .hd ul div{
+	 display: none; 
+}
