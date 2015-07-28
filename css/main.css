@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 * {
-	font: normal normal normal 12px/18px "Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #333;
 	-webkit-text-size-adjust: none
 }
@@ -32,7 +32,7 @@ ul,li{ padding:0; margin:0;}
 
 .bottom{ height:100px; line-height:100px; text-align:center; font-size:16px;}
 .logo{ width:200px; float:left;}
-.menu{   float:left;}
+.menu{   float:left;line-height:50px;}
 .menu li{ float:left; list-style:none; text-align:center;  height:50px; line-height:50px;margin-left: 47px;}
 .menu li:first-child{ margin-left: 82px;}
 .menu li a{ font-size: 18px;}
@@ -67,6 +67,7 @@ ul,li{ padding:0; margin:0;}
 	text-align: center;
 	line-height: 20px;
 	float: left;
+
 }
 .dbtn{
 	width:280px;
@@ -167,6 +168,7 @@ div.div-virtue-row-right{
 .div-virtue-row-right>p{
 	margin:5px 0px 0px 10px;
 	font-size: 18px;
+	line-height: 18px;
 }
 p.div-virtue-title{
 	margin:5px 0px 0px 10px;
