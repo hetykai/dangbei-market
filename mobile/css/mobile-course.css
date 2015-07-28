@@ -1,0 +1,9 @@
+.bottom{
+	position: relative;
+}
+.div-downbtn{
+	position: absolute;
+	bottom: 8%;
+	left: 25%;
+	width: 50%
+}
