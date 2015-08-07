@@ -25,7 +25,17 @@ $(document).ready(function(e) {
 		
 	})
 });
-
+$(window).bind("scroll",function() {
+            var d = $(document).scrollTop(),
+            e = $(window).height();
+            a=$(document).height();
+            console.log(d);
+            console.log(e);
+			console.log(a);
+			if(a==(e+d)){
+				alert(1111111);
+			}
+	   });
 /*$(window).scroll(function(e){
 	b();		
 })*/
